@@ -3,24 +3,26 @@ import reviews from "../reviews/dummyReviews";
 
 const ReviewDetail = () => {
   const { id } = useParams();
-  const navigate = useNavigate(); // Untuk navigasi kembali ke halaman sebelumnya
+  const navigate = useNavigate();
   const review = reviews.find((r) => r.id === parseInt(id));
 
-  if (!review) return <p className="text-white">Review tidak ditemukan!</p>;
+  if (!review) return <p className="text-white text-center text-lg">Review tidak ditemukan!</p>;
 
   return (
-    <div className="container mx-auto p-4 text-white">
+    <div className="container mx-auto p-6 text-white">
       <button
-        onClick={() => navigate(-1)} // Kembali ke halaman sebelumnya
-        className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md mb-4"
+        onClick={() => navigate(-1)}
+        className="bg-gradient-to-r from-purple-500 to-blue-500 hover:opacity-80 text-white px-5 py-2 rounded-md mb-6"
       >
         ⬅ Kembali
       </button>
 
-      <h1 className="text-3xl font-bold">{review.title}</h1>
-      <img src={review.image} alt={review.title} className="rounded-lg my-4 w-auto mx-auto" block />
-      <p className="text-lg" dangerouslySetInnerHTML={{ __html: review.content }}></p>
-      <span className="block font-bold text-yellow-400">⭐ {review.rating}/10</span>
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-4xl font-bold text-center mb-4">{review.title}</h1>
+        <img src={review.image} alt={review.title} className="rounded-lg w-full object-cover" />
+        <p className="text-lg mt-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: review.content }}></p>
+        <span className="block text-xl font-bold text-yellow-400 mt-4">⭐ {review.rating}/10</span>
+      </div>
     </div>
   );
 };
