@@ -61,7 +61,7 @@ const reviews = [
     title: "Final Fantasy IX",
     game: "Final Fantasy IX",
     image: "/images/FF9_logo.webp",
-    rating: 6.8,
+    rating: 8.8,
     summary: "Klasik yang Hidup Kembali.",
     content: `
       <p class="font-body mb-4">membawa kembali nuansa klasik seri FF dengan sentuhan teknologi PlayStation yang lebih modern. Game ini menjadi favorit para penggemar lama karena menghadirkan kembali elemen-elemen khas yang sempat hilang di beberapa seri sebelumnya. Dari segi visual dan eksekusi teknis, Square Enix benar-benar menunjukkan kehebatannya, menciptakan dunia fantasi yang begitu indah hingga rasanya kita bisa terus menatapnya tanpa bosan.</p>
@@ -92,7 +92,7 @@ const reviews = [
     title: "Final Fantasy X",
     game: "Final Fantasy X",
     image: "/images/FF10_logo.webp",
-    rating: 6.8,
+    rating: 9.8,
     summary: "Titik Balik Seri Legendaris.",
     content: `
       <p class="font-body mb-4">Final Fantasy X adalah salah satu game paling penting dalam sejarah seri ini. Sebelum ini, setiap game Final Fantasy hadir dengan inovasi besar, tetapi FFX menandai perubahan besar dalam banyak aspek.</p>
@@ -122,7 +122,7 @@ const reviews = [
     title: "Final Fantasy XII",
     game: "Final Fantasy XII",
     image: "/images/FF12_logo.png",
-    rating: 6.8,
+    rating: 8.2,
     summary: "Layak Ditunggu, Layak Dimainkan.",
     content: `
       <p class="font-body mb-4">Seberapa sering kita bisa benar-benar berkata, “Penantian ini sepadan”? Kapan kita bisa dengan yakin menyebut sebuah game sebagai salah satu yang terbaik dalam genrenya? Final Fantasy XII adalah jawabannya.</p>
@@ -158,7 +158,7 @@ const reviews = [
     title: "Final Fantasy XII: The Zodiac Age",
     game: "Final Fantasy XII: The Zodiac Age",
     image: "/images/FF12_ZodiacAge.jpg",
-    rating: 6.8,
+    rating: 7,
     summary: "Versi Remaster yang Membawa Banyak Perubahan.",
     content: `
       <h3 class="text-xl font-bold text-white mt-16 mb-2 text-center">Peningkatan Grafis yang Signifikan</h3>
