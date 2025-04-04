@@ -1,6 +1,6 @@
-Nama: Muhammad Sabda Arif
-NIM: 122140218
-Kelas: RB
+#Nama: Muhammad Sabda Arif
+#NIM: 122140218
+#Kelas: RB
 
 # Getting Started with Create React App
 
