@@ -1,3 +1,7 @@
+Nama: Muhammad Sabda Arif
+NIM: 122140218
+Kelas: RB
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
