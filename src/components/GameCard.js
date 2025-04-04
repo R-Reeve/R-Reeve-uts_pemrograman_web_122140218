@@ -6,7 +6,6 @@ const GameCard = ({ game }) => {
       <img src={game.background_image} alt={game.name} className="rounded-md" />
       <h2 className="text-lg font-bold mt-2">{game.name}</h2>
       <p className="text-sm">Rating: {game.rating}</p>
-      <Link to={`/game/${game.id}`} className="text-blue-400">View Details</Link>
     </div>
   );
 };

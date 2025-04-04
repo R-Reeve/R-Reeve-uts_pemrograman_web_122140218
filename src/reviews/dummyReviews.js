@@ -3,30 +3,30 @@ const reviews = [
     id: 1,
     title: "Final Fantasy PSP",
     game: "Final Fantasy PSP",
-    image: "/images/FF_logo.webp",
+    image: "/images/FF_logo.jpg",
     rating: 9.5,
     summary: "Final Fantasy PSP adalah remake dengan grafis dan musik yang ditingkatkan, tetapi gameplay dan cerita tetap sederhana seperti versi aslinya.",
     content: `
       <h3 class="font-heading text-xl font-bold text-white mb-2">Masih Klasik, Bukan Game Baru</h3>
       <p class="font-body mb-4">Final Fantasy PSP bukan pengalaman yang benar-benar baru, karena ini adalah remake dari game lama yang sudah berusia 20 tahun. Secara keseluruhan, game ini hampir sama dengan Dawn of Souls di Game Boy Advance, hanya dengan sedikit tambahan.</p>
-      <img src="/images/FF1_graphicsevolution.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF1_graphicsevolution.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Cerita yang Simpel</h3>
       <p class="font-body mb-4">Kisahnya tentang empat pemuda yang ditakdirkan memulihkan cahaya kristal. Petualangan dimulai dengan menyelamatkan seorang putri dari Garland, ksatria yang berkhianat. Sayangnya, karakter utama terasa hambar karena tidak punya dialog, latar belakang, atau kepribadian, membuat ceritanya kurang menarik dibanding RPG modern.</p>
-      <img src="/images/FFI_PSP_Crystals.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFI_PSP_Crystals.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-32 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Gameplay Lama dengan Beberapa Perubahan</h3>
       <p class="mb-4">Sistem pertarungan tetap klasik, dengan enam pilihan kelas: Warrior, Thief, Monk, Red Mage, White Mage, dan Black Mage. Sekarang ada sistem MP, menggantikan batas sihir per level seperti di versi aslinya, membuat permainan lebih mudah. Meski begitu, pertarungannya masih terasa sederhana dan tidak banyak variasi.</p>
-      <img src="/images/FF1_starterjob.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FF1_advancedjob.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF1_starterjob.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FF1_advancedjob.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Tambahan Fitur</h3>
       <p class="font-body mb-4">Versi ini menghadirkan dungeon baru bernama Labyrinth of Time, yang menawarkan tantangan berbasis waktu. Pemain juga bisa menyimpan game hampir di mana saja, tapi tetap harus berhati-hati agar tidak terjebak dalam situasi sulit.</p>
-      <img src="/images/FF1_LabyrinthOfTime.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF1_LabyrinthOfTime.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Grafis dan Musik yang Lebih Baik</h3>
       <p class="font-body mb-4">Visualnya kini lebih hidup dengan kota yang lebih detail dan efek lingkungan seperti salju dan debu. Musik klasik Uematsu juga mendapat aransemen ulang, bahkan ada tambahan lagu dari seri Final Fantasy lainnya.</p>
-      <img src="/images/FF1_town.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF1_town.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Kesimpulan</h3>
       <p class="font-body mb-4">Final Fantasy PSP adalah versi terbaik bagi yang belum pernah mencoba game ini. Tapi jika sudah memainkan Dawn of Souls, versi ini hanya menawarkan peningkatan grafis dan musik tanpa banyak hal baru.</p>
@@ -46,13 +46,13 @@ const reviews = [
       <h3 class="text-xl font-bold text-white mb-2">Sistem Leveling yang Unik, Tapi Melelahkan</h3>
       <p class="font-body mb-4">FF2 meninggalkan sistem EXP klasik dan menggantinya dengan sistem keahlian mirip The Elder Scrolls—semakin sering digunakan, semakin kuat. Tapi ada sisi negatifnya: jika terlalu fokus pada satu keahlian, kemampuan lainnya melemah.</p>
       <p class="font-body mb-4">Masalahnya, sistem ini terlalu melelahkan. Untuk meningkatkan HP, pemain harus sengaja menerima banyak serangan. Selain itu, sihir jauh lebih kuat dibanding serangan fisik, jadi pilihan terbaik sudah jelas sejak awal.</p>
-      <img src="/images/FF2_weaponlevel.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FF2_magiclevelmaxed.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF2_weaponlevel.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FF2_magiclevelmaxed.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h- mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Cerita Kuat, Tapi Pertarungan Terlalu Sering</h3>
       <p class="mb-4">Walaupun gameplay-nya kurang seimbang, cerita dan produksi FF2 patut diapresiasi. Ada unsur drama dan emosi yang membuatnya lebih hidup. Sayangnya, frekuensi pertempuran terlalu tinggi, mirip game Shin Megami Tensei, yang justru membuat pengalaman bermain terasa repetitif.</p>
-      <img src="/images/FF2_battle2.jpeg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FF2_battle1.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF2_battle2.jpeg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FF2_battle1.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-45 mx-auto">
     `,
   },
 
@@ -60,7 +60,7 @@ const reviews = [
     id: 3,
     title: "Final Fantasy IX",
     game: "Final Fantasy IX",
-    image: "/images/FF9_logo.webp",
+    image: "/images/FF9_logo.png",
     rating: 8.8,
     summary: "Klasik yang Hidup Kembali.",
     content: `
@@ -68,11 +68,11 @@ const reviews = [
       
       <h3 class="text-xl font-bold text-white mb-2">Grafis yang Memukau</h3>
       <p class="font-body mb-4">Setiap area dalam game ini seperti dunia baru yang penuh detail dan warna. Latar belakangnya merupakan gambar pra-render yang sangat indah, dipenuhi dengan efek pencahayaan, elemen interaktif, dan detail kecil yang membuat dunia ini terasa hidup. Efek sihir dan pertarungan juga terlihat luar biasa, dengan animasi karakter yang lebih halus dibanding game sebelumnya.</p>
-      <img src="/images/FF9_town1.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FF9_town2.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF9_town1.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FF9_town2.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       <p class="font-body mb-4">Cutscene dalam game ini juga luar biasa. Adegan-adegan penting diiringi dengan animasi yang membuat pemain terkesima. Tidak hanya itu, ekspresi wajah dan gestur karakter dibuat lebih ekspresif, sehingga emosi mereka lebih terasa, terutama dalam momen-momen dramatis.</p>
-      <img src="/images/FF9_cutscene1.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FF9_cutscene2.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF9_cutscene1.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FF9_cutscene2.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Karakter yang Berkesan</h3>
       <p class="mb-4">menghadirkan karakter yang lebih unik dan beragam dibanding pendahulunya. Zidane Tribal, sang protagonis, bukanlah pahlawan murung seperti Cloud atau Squall, tetapi sosok pencuri yang ceria dan penuh rasa ingin tahu. Garnet, sang putri kerajaan, memiliki perkembangan karakter yang menarik, dari seorang gadis yang lemah hingga menjadi sosok yang lebih kuat. Steiner, sang ksatria, awalnya terlihat kaku dan konyol, tetapi seiring waktu, ia menjadi salah satu karakter dengan perkembangan terbaik.</p>
@@ -99,15 +99,15 @@ const reviews = [
       
       <h3 class="text-xl font-bold text-white mb-2">Perubahan Besar dalam Gameplay</h3>
       <p class="font-body mb-4">FFX memperkenalkan sistem pertarungan berbasis giliran murni tanpa Active Time Battle (ATB). Pemain bisa mengganti karakter di tengah pertarungan, membuat strategi lebih fleksibel dan tidak ada lagi karakter yang tertinggal levelnya. Sistem pengembangan karakter juga mengalami perubahan besar melalui Sphere Grid, memungkinkan pemain menyesuaikan kemampuan karakter dengan lebih bebas.</p>
-      <img src="/images/FF10_SphereGrid.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FF10_jechtbattle.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF10_SphereGrid.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FF10_jechtbattle.png" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Grafis dan Suara yang Revolusioner</h3>
       <p class="mb-4">FFX adalah game pertama dalam seri yang menghadirkan voice acting penuh, membawa pengalaman cerita ke level baru. Visualnya juga luar biasa, dengan dunia Spira yang penuh warna dan efek yang memukau.</p>
 
       <h3 class="text-xl font-bold text-white mb-2">Cerita yang Kuat dan Karakter yang Berkesan</h3>
       <p class="mb-4">Game ini menceritakan perjalanan Tidus, seorang atlet blitzball, yang terlempar ke dunia asing bernama Spira. Bersama Yuna dan timnya, ia menjalani petualangan epik dengan tema pengorbanan dan takdir. Karakter seperti Auron, Lulu, dan Wakka memiliki kepribadian kuat yang membuat cerita semakin hidup.</p>
-      <img src="/images/FF10_story.avif" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FF10_story.avif" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
 
       <h3 class="text-xl font-bold text-white mb-2">Musik yang Berbeda dari Sebelumnya</h3>
       <p class="mb-4">Selain Nobuo Uematsu, dua komposer baru ikut serta dalam proyek ini, menghasilkan soundtrack yang lebih variatif. Dari lagu orkestra hingga musik rock, FFX memiliki nuansa musik yang unik dibandingkan pendahulunya.</p>
@@ -130,23 +130,23 @@ const reviews = [
       <h3 class="text-xl font-bold text-white mb-2">Cerita yang Gelap dan Mendalam</h3>
       <p class="font-body mb-4">Final Fantasy XII berlatar di dunia Ivalice yang dilanda perang. Kerajaan Dalmasca diduduki oleh Kekaisaran Archadia setelah rajanya dibunuh. Putri kerajaan dikabarkan bunuh diri, dan rakyatnya hidup dalam tekanan. Di tengah kekacauan ini, Vaan, seorang pemuda yatim piatu, bercita-cita menjadi bajak laut langit dan secara tak sengaja terseret dalam konflik besar. Bersama para karakter lain, ia berusaha merebut kembali kebebasan Dalmasca.</p>
       <p class="font-body mb-4">Cerita game ini lebih dewasa dibanding seri Final Fantasy sebelumnya, dengan tema pengkhianatan, perang, dan politik. Tidak ada satu karakter utama yang mendominasi—ini adalah kisah kelompok yang saling terjalin.</p>
-      <img src="/images/FFXIIori_idk.jpg" alt="Job Board" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFXIIori_idk.jpg" alt="Job Board" class="mb-4 rounded-lg h-64 mx-auto">
       
       <h3 class="text-xl font-bold text-white mb-2">Sistem Pertarungan Baru yang Segar</h3>
       <p class="mb-4">FFXII mengubah sistem pertarungan tradisional menjadi lebih dinamis. Tidak ada lagi pertempuran acak; musuh terlihat langsung di dunia permainan. Sistem ini masih berbasis giliran, tetapi dengan aksi yang berlangsung secara real-time.</p>
       <p class="mb-4">Yang membuatnya unik adalah Gambit System, yang memungkinkan pemain mengatur perilaku karakter secara otomatis dalam pertempuran. Ini memberi keleluasaan untuk menyusun strategi tanpa harus selalu memberikan perintah manual.</p>
-      <img src="/images/FFXIIori_gameplay.jpg" alt="Job Board" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFXIIori_gameplay.jpg" alt="Job Board" class="mb-4 rounded-lg h-64 mx-auto">
 
       <h3 class="text-xl font-bold text-white mb-2">Lisensi dan Kebebasan Kustomisasi</h3>
       <p class="mb-4">Sistem License Board memungkinkan pemain mengembangkan karakter sesuai keinginan. Semua karakter memulai dari titik yang sama, dan pemain bisa memilih kemampuan serta senjata yang mereka gunakan. Ini membuat setiap playthrough bisa berbeda tergantung gaya bermain.</p>
-      <img src="/images/FFXIIori_gambarjobboard.jpg" alt="Job Board" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFXIIori_gambarjobboard.jpg" alt="Job Board" class="mb-4 rounded-lg h-64 mx-auto">
 
       <h3 class="text-xl font-bold text-white mb-2">Presentasi yang Luar Biasa</h3>
       <p class="mb-4">Visualnya termasuk yang terbaik di PS2. Setiap kota dan karakter memiliki detail luar biasa. Suara para karakter diisi oleh aktor berkualitas dengan dialog yang lebih alami dan matang. Soundtracknya cukup baik, meskipun bukan yang terbaik dalam seri ini.</p>
 
       <h3 class="text-xl font-bold text-white mb-2">Beberapa Kekurangan Kecil</h3>
       <p class="mb-4">Tidak ada game yang sempurna. Beberapa kota terasa terlalu besar, membuat navigasi agak melelahkan. Kamera tidak bisa dikustomisasi dan butuh waktu untuk terbiasa. Selain itu, ada musuh kuat yang muncul tiba-tiba, yang bisa jadi menjengkelkan bagi pemain yang belum siap.</p>
-      <img src="/images/FFXIIori_town.jpg" alt="Job Board" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFXIIori_town.jpg" alt="Job Board" class="mb-4 rounded-lg h-64 mx-auto">
 
       <h3 class="text-xl font-bold text-white mb-2">Kesimpulan</h3>
       <p class="mb-4">Final Fantasy XII adalah RPG luar biasa yang wajib dimainkan, terutama bagi penggemar seri ini. Dengan cerita yang matang, pertarungan inovatif, dan dunia yang luas, game ini menjadi salah satu RPG terbaik di PlayStation 2. Jika Anda menyukai petualangan epik dengan kebebasan strategi, jangan lewatkan game ini!</p>
@@ -171,7 +171,7 @@ const reviews = [
         Ada juga efek depth of field yang memberikan kesan lebih dramatis dalam cutscene. Namun, beberapa batasan teknis tetap ada, seperti bar hitam di bawah layar 
         saat cutscene berlangsung, meskipun ini membantu menjaga kualitas video agar tidak pecah.
       </p>
-      <img src="/images/FFXII_gambar1.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFXII_gambar1.webp" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
   
       <h3 class="text-xl font-bold text-white mb-2 text-center">Sistem Job Baru: Lebih Terstruktur dan Strategis</h3>
       <p class="mb-4">
@@ -186,8 +186,8 @@ const reviews = [
         Misalnya, kombinasi White Mage dan Machinist bisa menjadi penyembuh yang juga bisa menyerang dari jauh, sementara kombinasi Knight dan Bushi dapat menghasilkan 
         karakter dengan serangan fisik yang sangat kuat. Fleksibilitas ini membuat strategi bertarung lebih menarik.
       </p>
-      <img src="/images/FFXII_gambarjoblist.webp" alt="Job List" class="mb-4 rounded-lg mx-auto">
-      <img src="/images/FFXII_gambarjobboard.webp" alt="Job Board" class="mb-4 rounded-lg mx-auto">
+      <img src="/images/FFXII_gambarjoblist.webp" alt="Job List" class="mb-4 rounded-lg h-64 mx-auto">
+      <img src="/images/FFXII_gambarjobboard.webp" alt="Job Board" class="mb-4 rounded-lg h-64 mx-auto">
   
       <h3 class="text-xl font-bold text-white mb-2 text-center">Fitur Baru yang Meningkatkan Kenyamanan Bermain</h3>
       <p class="mb-4">
@@ -200,7 +200,7 @@ const reviews = [
             Di versi PS2, permainan terasa cukup lambat, terutama saat menjelajahi dunia yang luas atau bertarung dengan musuh lemah. Kini, pemain bisa mengaktifkan 
             Turbo Mode yang mempercepat permainan hingga 2x atau 4x kecepatan normal. Ini sangat membantu saat grinding EXP atau berburu item langka.
           </p>
-          <img src="/images/FFXII_gambarturbomode.webp" alt="Turbo Mode" class="rounded-lg mx-auto">
+          <img src="/images/FFXII_gambarturbomode.webp" alt="Turbo Mode" class="rounded-lg h-64 mx-auto">
         </li>
       
         <li class="p-4 bg-gray-800 rounded-lg shadow-md">
@@ -209,7 +209,7 @@ const reviews = [
             Pada versi original, damage yang bisa diberikan karakter dibatasi hingga 9.999, yang membuat serangan terasa kurang kuat di akhir permainan. 
             The Zodiac Age menghapus batas ini, memungkinkan karakter memberikan damage lebih besar, terutama saat menggunakan teknik atau serangan spesial.
           </p>
-          <img src="/images/FFXII_gambardamage.webp" alt="Break Damage Limit" class="rounded-lg mx-auto">
+          <img src="/images/FFXII_gambardamage.webp" alt="Break Damage Limit" class="rounded-lg h-64 mx-auto">
         </li>
       
         <li class="p-4 bg-gray-800 rounded-lg shadow-md">
@@ -226,7 +226,7 @@ const reviews = [
             Dulu, mendapatkan Zodiac Spear sangat sulit karena pemain tidak boleh membuka beberapa peti tertentu sepanjang permainan, tanpa adanya petunjuk sama sekali. 
             Kini, senjata terkuat ini bisa diperoleh melalui side-quest yang lebih masuk akal, sehingga pemain tidak perlu mengikuti aturan yang membingungkan.
           </p>
-          <img src="/images/FFXII_gambarzodiacspear.webp" alt="Zodiac Spear" class="rounded-lg mx-auto">
+          <img src="/images/FFXII_gambarzodiacspear.webp" alt="Zodiac Spear" class="rounded-lg h-64 mx-auto">
         </li>
       
         <li class="p-4 bg-gray-800 rounded-lg shadow-md">
