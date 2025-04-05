@@ -53,6 +53,10 @@ const reviews = [
       <p class="mb-4">Walaupun gameplay-nya kurang seimbang, cerita dan produksi FF2 patut diapresiasi. Ada unsur drama dan emosi yang membuatnya lebih hidup. Sayangnya, frekuensi pertempuran terlalu tinggi, mirip game Shin Megami Tensei, yang justru membuat pengalaman bermain terasa repetitif.</p>
       <img src="/images/FF2_battle2.jpeg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-64 mx-auto">
       <img src="/images/FF2_battle1.jpg" alt="Final Fantasy XII Story" class="mb-4 rounded-lg h-45 mx-auto">
+      <h3 class="text-xl font-bold text-white mb-2">Kesimpulan</h3>
+      <p class="font-body mb-4">Final Fantasy II versi PSP adalah peningkatan dari game pertamanya dalam hal cerita, musik, dan visual. Namun, sistem leveling yang unik justru bisa menjadi penghalang bagi pemain yang mencari pengalaman gameplay yang seimbang dan tidak terlalu repetitif.</p>
+      <p class="font-body mb-4">Kalau kamu tertarik dengan cerita RPG klasik yang penuh drama dan tidak keberatan dengan grinding dan sistem pertarungan yang sering muncul, FF2 masih layak dicoba. Tapi untuk gamer yang lebih mementingkan gameplay modern dan sistem yang tidak membebani, game ini mungkin bukan pilihan utama.</p>
+
     `,
   },
 
