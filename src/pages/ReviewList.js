@@ -4,7 +4,7 @@ import ReviewCard from "../components/ReviewCard";
 const ReviewList = () => {
   return (
     <div className="container mx-auto p-6 text-white">
-      <h1 className="text-4xl font-bold text-center mb-4">📢 Review Final Fantasy</h1>
+      <h1 className="text-4xl font-bold text-center mb-4">Review Final Fantasy</h1>
       <p className="text-lg text-center mb-6">
         Berikut adalah beberapa review dari game Final Fantasy yang pernah saya mainkan.
       </p>
