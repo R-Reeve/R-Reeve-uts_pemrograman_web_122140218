@@ -1,4 +1,4 @@
-import reviews from "../reviews/dummyReviews";
+import reviews from "../reviews/DataReviews";
 import ReviewCard from "../components/ReviewCard";
 
 const ReviewList = () => {

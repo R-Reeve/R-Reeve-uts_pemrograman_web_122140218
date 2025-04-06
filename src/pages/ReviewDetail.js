@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import reviews from "../reviews/dummyReviews";
+import reviews from "../reviews/DataReviews";
 
 const ReviewDetail = () => {
   const { id } = useParams();
