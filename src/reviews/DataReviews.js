@@ -1,3 +1,4 @@
+// Array berisi daftar review game Final Fantasy
 const reviews = [
   {
     id: 1,
@@ -257,4 +258,5 @@ const reviews = [
   
 ];
 
+// Mengekspor array reviews agar bisa digunakan di komponen lain
 export default reviews;

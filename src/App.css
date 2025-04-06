@@ -1,14 +1,15 @@
 .review-card {
-  position: relative;
-  overflow: hidden;
+  position: relative;             /* Supaya .review-info bisa diposisikan secara absolute di dalamnya */
+  overflow: hidden;              /* Potong konten yang keluar dari batas card */
   border-radius: 8px;
-  background-color: #1a1a2e;
+  background-color: #1a1a2e;     /* Warna gelap (deep indigo) yang cocok untuk tema game */
   padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .review-card img {
-  width: 100%;
-  height: auto;
+  width: 100%;                   /* Bikin gambar full lebar card */
+  height: auto;                  /* Menjaga rasio gambar */
   border-radius: 8px;
 }
 
@@ -16,7 +17,7 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);  /* Transparan hitam elegan */
   padding: 8px;
   border-radius: 5px;
   font-size: 14px;
