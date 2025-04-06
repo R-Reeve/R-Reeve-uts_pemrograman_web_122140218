@@ -6,7 +6,7 @@ const Navbar = () => {
       <span className="font-bold text-lg">Game Review</span>
       <div className="flex space-x-4">
         <Link to="/">
-          <button className="bg-gradient-to-r from-purple-500 to-blue-500 hover:bg-blue-400 text-white px-4 py-2 rounded-lg">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
             Home
           </button>
         </Link>

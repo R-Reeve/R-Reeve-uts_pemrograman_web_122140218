@@ -17,7 +17,7 @@ const ReviewDetail = () => {
     <div className="container mx-auto p-6 text-white">
       <button
         onClick={() => navigate(-1)}
-        className="bg-gradient-to-r from-purple-500 to-blue-500 hover:opacity-80 text-white px-5 py-2 rounded-md mb-6"
+        className="bg-blue-500 hover:opacity-80 text-white px-5 py-2 rounded-md mb-6"
       >
         ⬅ Kembali
       </button>

@@ -26,7 +26,7 @@ const ReviewCard = ({ review }) => {
         {/* Tombol */}
         <Link
           to={`/review/${review.id}`}
-          className="block bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg transition-opacity hover:opacity-80 text-center"
+          className="block bg-blue-500 text-white px-4 py-2 rounded-lg transition-opacity hover:opacity-80 text-center"
         >
           Baca Selengkapnya
         </Link>
